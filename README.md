@@ -28,7 +28,7 @@ This collection pack contains an environment "Anypoint Platform". Set the values
 
 All other parameters are optional or related to specific requests. 
 
-https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-collection.png
+![Image of Yaktocat](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-collection.png)
 
 ## Watch quick tutorial on how to use this collection pack
 
