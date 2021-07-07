@@ -30,5 +30,42 @@ All other parameters are optional or related to specific requests.
 
 ![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-collection.png)
 
+## Basic Setup Example
+In the following, find some examples on accessing data using the postman collection pack. For detailed instruction, please watch the quick tutorial video linked below. 
+
+### Login to Anypoint Platform
+Once you have entered to correct parameter values in the environment "Anypoint Platform", you can make use of the "Login to anypoint platform" POST request in the Authentication Folder. This request will save the token bearer to the parameters and use it in all subsequent requests.
+
+![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-coll-login.PNG)
+
+### Getting profile Information
+After you have logged in, you need to get your profile information in order to set the organization_Id. This is set by the "Get profile information" request in the Authentication folder. After execution of this request, the organization_Id parameter is set and relevant for all subsequent requests. 
+
+![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-coll-orgid.PNG)
+
+## Subsequent request
+After the basic setup is done, you can now use the majority of the requests in postman with your anypoint platform environment.
+
+### Get all projects
+In order to access all projects using the collection pack, go to the folder "Design Center/Projects" and select the "Get all projects". Run this request to retrieve all projects within the organization_Id
+
+![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-coll-projectsall.PNG)
+
+### Get all assets
+In order to access all assets using the collection pack, go to the folder "Exchange/Assets" and select the "Get all assets". Run this request to retrieve all projects within the organization_Id
+
+![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-coll-assetsall.PNG)
+
+### Invite new users
+In order to invite new users, go to folder "Management Center/Access Management/Users" and select "Invite new users" request. 
+This is requires to have the group role id, which you need to have prior performing this POST request. To get the group roles go to folder "Management Center/Access Management/Rolegroups" and perform "Get all rolegroups" request to retrieve all rolegroups. 
+
+![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-coll-rolegroups.PNG)
+
+Copy the required role_group_id and name. Go back to the "Invite new users" request and select Body. Enter the copied values to the correct fields.
+
+![Image of Postman Collection](https://github.com/API-Activist/anypoint-platform-postman-collection/blob/main/postman-coll-inviteuser.PNG)
+
+
 ## Watch quick tutorial on how to use this collection pack
 
