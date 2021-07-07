@@ -68,4 +68,4 @@ Copy the required role_group_id and name. Go back to the "Invite new users" requ
 
 
 ## Watch quick tutorial on how to use this collection pack
-
+https://youtu.be/BFJJPqO1l20
