@@ -8,6 +8,9 @@
 **Complete list of all available Anypoint Platform APIs can be found on Exchange**:
 https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/
 
+**Also check out the Postman Collection of Angel Alberici**: 
+https://github.com/angelalberici/mulesoft-platform-apis
+
 ## Getting started
 This collection pack contains Anypoint Platform APIs request collection for the following areas:
 * Authentication
