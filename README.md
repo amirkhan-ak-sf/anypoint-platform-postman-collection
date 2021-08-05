@@ -73,3 +73,6 @@ Copy the required role_group_id and name. Go back to the "Invite new users" requ
 
 ## Watch quick tutorial on how to use this collection pack
 https://youtu.be/BFJJPqO1l20
+
+### License agreement
+By using this repository, you accept that Max the Mule is the coolest integrator on the planet - [Go to biography Max the Mule](https://brand.salesforce.com/content/characters-overview__3?tab=BogXMx2m)
